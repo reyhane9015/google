@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Google</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/brand.png" alt="brand">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/gmail.png" alt="gmail">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/drive.png" alt="drive">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/youtube.png" alt="youtube">
+                        </a>
+                    </li>
+                    <li onclick="openModal(event)">
+                        <a href="#">
+                            <img src="img/menu.png" alt="menu">
+                        </a>
+                    </li>
+                    <div class="logoBackdrop" onclick="openModal(event)">
+                        <div class="logoModal" onclick="event.stopPropagation()">
+                            <div class="grid-items">
+                                <a href="#" class="grid-item">
+                                    <img src="img/drive.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/youtube.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/drive.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/youtube.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/drive.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/youtube.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/drive.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/brand.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/drive.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/brand.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/drive.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/drive.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/drive.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/drive.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/drive.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/drive.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/youtube.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/drive.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                                <a href="#" class="grid-item">
+                                    <img src="img/drive.png" alt="">
+                                    <p>Drive</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <li>
+                        <a href="#">
+                            <img src="img/bell.png" alt="bell">
+                        </a>
+                    </li>
+                    <li onclick="openProfileModal(event)">
+                        <a href="#">
+                            <img src="img/profile.jpg" alt="profile" id="profile">
+                        </a>
+                    </li>
+                    <div class="profileBackdrop" onclick="openProfileModal(event)">
+                        <div class="profileModal" onclick="event.stopPropagation()">
+                            <div class="img-profile">
+                                <img src="img/profile.jpg" alt="">
+                                <p>reyhane rft</p>
+                                <p>a@yahoo.com</p>
+                                <button type="button">Manage your Google</button>
+                            </div>
+                            <div>
+                                <img src="img/bell.png" alt="">
+                                <p>Add anathor account</p>
+                            </div>
+                            <div>
+                                <button>Sign out</button>
+                            </div>
+                            <div>
+                                <span><a href="#">Privacy</a></span>
+                                <span><a href="#">Policy</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </header>
+            <main>
+                <div class="content">
+                    <img src="img/logo.png" alt="google">
+                    <div class="searchbox">
+                        <img src="img/search.png" alt="search">
+                        <input type="text" placeholder="search...">
+                        <img src="img/microphone.png" alt="search">
+                    </div>
+                    <div class="favorite">
+                        <a href="#">
+                            <div class="sub_fav"></div>
+                            <p>java</p>
+                        </a>
+                        <a href="#">
+                            <div class="sub_fav"></div>
+                            <p>javascript</p>
+                        </a>
+                        <a href="#">
+                            <div class="sub_fav"></div>
+                            <p>npm</p>
+                        </a>
+                        <a href="#">
+                            <div class="sub_fav"></div>
+                            <p>sass</p>
+                        </a>
+                        <a href="#">
+                            <div class="sub_fav"></div>
+                            <p>w3s</p>
+                        </a>
+                        <a href="#">
+                            <div class="sub_fav"></div>
+                            <p>react</p>
+                        </a>
+                        <a href="#">
+                            <div class="sub_fav"></div>
+                            <p>css</p>
+                        </a>
+                        <a href="#">
+                            <div class="sub_fav"></div>
+                            <p>aparat</p>
+                        </a>
+                        <a href="#">
+                            <div class="sub_fav"></div>
+                            <p>youtube</p>
+                        </a>
+                        <a href="#">
+                            <div class="sub_fav"></div>
+                            <p>html</p>
+                        </a>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <ul>
+                    <li>
+                        <a href="#">Advertising</a>
+                    </li>
+                    <li>
+                        <a href="#">Bussiness</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="#">Advertising</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/setting.png" alt="setting"></a>
+                    </li>
+                </ul>
+            </footer>
+
+
+        </div>
+        <script src="script/sc.js"></script>
+    </body>
+
+</html>
